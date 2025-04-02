@@ -1,0 +1,30 @@
+.life-stats {
+    background: linear-gradient(to bottom, lightblue, rgb(88, 183, 215));
+    color: hotpink;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10vh auto;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .life-stats__header {
+    font-size: 4rem;
+  }
+  
+  p {
+    font-size: 2.5rem;
+    margin: 2.5rem 0;
+    font-weight: bold;
+    display: inline-flex;
+  }
+  .left {
+    justify-content: start;
+  }
+  .right {
+    justify-content: end;
+  }
