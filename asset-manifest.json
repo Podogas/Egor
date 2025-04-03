@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Egor/static/css/main.2c31a100.css",
-    "main.js": "/Egor/static/js/main.7f7a110e.js",
+    "main.css": "/Egor/static/css/main.e26ae0ec.css",
+    "main.js": "/Egor/static/js/main.3a79dba0.js",
     "static/js/453.ed3810f9.chunk.js": "/Egor/static/js/453.ed3810f9.chunk.js",
+    "static/media/flappy.png": "/Egor/static/media/flappy.ffcca999084a2e5d8600.png",
+    "static/media/egorAndMe.jpg": "/Egor/static/media/egorAndMe.927ac55a5be70379b90d.jpg",
     "index.html": "/Egor/index.html",
-    "main.2c31a100.css.map": "/Egor/static/css/main.2c31a100.css.map",
-    "main.7f7a110e.js.map": "/Egor/static/js/main.7f7a110e.js.map",
+    "main.e26ae0ec.css.map": "/Egor/static/css/main.e26ae0ec.css.map",
+    "main.3a79dba0.js.map": "/Egor/static/js/main.3a79dba0.js.map",
     "453.ed3810f9.chunk.js.map": "/Egor/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c31a100.css",
-    "static/js/main.7f7a110e.js"
+    "static/css/main.e26ae0ec.css",
+    "static/js/main.3a79dba0.js"
   ]
 }
