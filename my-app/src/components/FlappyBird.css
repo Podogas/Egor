@@ -11,6 +11,7 @@
   }
   .game__title {
     align-self: center;
+    font-size: 1.6rem;
   }
   .bird {
     position: absolute;
