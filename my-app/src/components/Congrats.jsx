@@ -15,7 +15,7 @@ const getRandomPosition = () => ({
 });
 
 export default function BirthdayPage() {
-  const [countdown, setCountdown] = useState(10); // Стартуем с 10
+  const [countdown, setCountdown] = useState(10); // Стартуем с 10 ПОМЕНЯЙ НА 10!!!!!!!!!!!!!!!!!!
   const [gifStyles, setGifStyles] = useState([]);
   const [visibleGifs, setVisibleGifs] = useState([]);
   const [gifUrls, setGifUrls] = useState([]);
@@ -43,7 +43,7 @@ export default function BirthdayPage() {
       setCountdown(prev => {
         if (prev === 1) {
           clearInterval(countdownInterval);
-          setBgColor("lightblue"); // Изменяем цвет фона
+          setBgColor("#bad1e5"); // Изменяем цвет фона
           setBgImage('none');
           setShowMessage(true); // Показываем сообщение
           return 0;

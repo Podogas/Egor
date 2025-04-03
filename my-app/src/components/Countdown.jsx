@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Countdown() {
     // ДАТА РОЖДЕНИЯ УКАЗАТЬ В UTC то есть ВЫЧЕСТЬ 3 ЧАСА из времени рождения по МСК
-  const targetDate = new Date("2025-04-03T00:17:00").getTime();
+  const targetDate = new Date("2025-04-05T07:45:00Z").getTime();
   const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime() - 10000);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function Countdown() {
     return (
       <div className="tvAnimation">
         <div className="countdown">
-          <h2 className="countdown__timer">{days > 0 ? days : ''} {hours}ч {minutes}м {seconds}с</h2>
+          <h2 className="countdown__timer">{days > 0 ? days + 'д' : ''} {hours}ч {minutes}м {seconds}с</h2>
         </div>
       </div>
     );

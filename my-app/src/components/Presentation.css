@@ -1,0 +1,30 @@
+
+
+.photo-section {
+  margin: 10vh auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.caption {
+  color: #202f32;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .photo {
+      object-fit: contain;
+  }
+}

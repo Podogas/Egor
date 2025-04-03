@@ -6,11 +6,12 @@
 }
 .congrats__header {
   z-index: 10;
-  color: hotpink;
-  font-size: 6rem;
+  width: 60%;
+  color: #202f32;
+  font-size: 5rem;
   animation: pulse2 10s infinite ease-in-out;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #bad1e5;
     border-radius: 10px;
     padding: 4vw;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);

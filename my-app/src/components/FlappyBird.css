@@ -1,0 +1,59 @@
+.game {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background-color: #bad1e5;
+    overflow: hidden;
+    border: 5px solid #426853;
+    margin-bottom: 10rem;
+  }
+  .game__title {
+    align-self: center;
+  }
+  .bird {
+    position: absolute;
+    background-image: url(../media/onlyEgor/flappy.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  
+  .pipe {
+    position: absolute;
+    width: 50px;
+    background-color: #426853;
+  }
+  
+  .pipe.top {
+    top: 0;
+  }
+   
+  .pipe.bottom {
+    bottom: 0;
+  }
+  
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #426853;
+    color: #202f32;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #202f32;
+  }
+  
