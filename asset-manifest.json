@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Egor/static/css/main.82318d03.css",
-    "main.js": "/Egor/static/js/main.644f2f80.js",
+    "main.js": "/Egor/static/js/main.3a79dba0.js",
     "static/js/453.ed3810f9.chunk.js": "/Egor/static/js/453.ed3810f9.chunk.js",
     "static/media/flappy.png": "/Egor/static/media/flappy.ffcca999084a2e5d8600.png",
     "static/media/egorAndMe.jpg": "/Egor/static/media/egorAndMe.927ac55a5be70379b90d.jpg",
     "index.html": "/Egor/index.html",
     "main.82318d03.css.map": "/Egor/static/css/main.82318d03.css.map",
-    "main.644f2f80.js.map": "/Egor/static/js/main.644f2f80.js.map",
+    "main.3a79dba0.js.map": "/Egor/static/js/main.3a79dba0.js.map",
     "453.ed3810f9.chunk.js.map": "/Egor/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82318d03.css",
-    "static/js/main.644f2f80.js"
+    "static/js/main.3a79dba0.js"
   ]
 }
